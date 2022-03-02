@@ -1,0 +1,9 @@
+def fun():
+    pass
+n=int(input())
+j=0
+while(True):
+    j+=1
+    for i in range(n):
+        print("call"+str(j)+str(i))
+    fun()
