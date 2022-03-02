@@ -1,0 +1,8 @@
+s=input()
+k=list(map(str,input().split()))
+print(k)
+op=[]
+for i in k:
+    if(s in i[:len(i)+1]):
+        op.append(i)
+print(op)
