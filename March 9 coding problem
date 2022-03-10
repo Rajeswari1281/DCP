@@ -1,0 +1,8 @@
+
+a=list(map(int,input().split()))
+k=int(input())
+p=[]
+for i in range(len(a)-k+1):
+    p.append(max(a[i:i+k]))
+for i in p:
+    print(i)
